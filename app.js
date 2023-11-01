@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var cors = require('cors');
 var sendMail = require('./mail')
+require('dotenv').config();
 
 
 var app = express();
